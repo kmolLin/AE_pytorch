@@ -55,11 +55,13 @@ coverage.xml
 *.mo
 *.pot
 
+.idea/
+
 *.pt
 
 *.jpeg
-dataset
-dataset_test
+dataset/
+dataset_test/
 
 # Django stuff:
 *.log
