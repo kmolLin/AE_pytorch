@@ -34,10 +34,10 @@ class Pre_dataset(Dataset):
         input = Image.open(os.path.join(f"{self.root_dir}/input", self.inputdir[idx]))
         output = Image.open(os.path.join(f"{self.root_dir}/output", self.outputdir[idx]))
 
-        input = input.resize((512, 512))
+        input = input.resize((1024, 1024))
         input = np.array(input)
 
-        output = output.resize((512, 512))
+        output = output.resize((1024, 1024))
         output = np.array(output)
 
         # im = im.resize(12288)
