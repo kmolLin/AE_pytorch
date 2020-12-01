@@ -55,6 +55,12 @@ coverage.xml
 *.mo
 *.pot
 
+*.pt
+
+*.jpeg
+dataset
+dataset_test
+
 # Django stuff:
 *.log
 local_settings.py
